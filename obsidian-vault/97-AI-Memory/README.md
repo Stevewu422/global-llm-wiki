@@ -9,6 +9,13 @@ agents: [Codex, Claude-Code, Cursor]
 
 本目录只保存未来会影响判断或执行方式的长期信息，不保存聊天记录。
 
+## 当前模式
+
+- 记忆主库：`/root/obsidian-vault`。
+- Hermes 注入层：`/root/.hermes/memories/USER.md` 与 `MEMORY.md` 已软链接到 `00-System/USER.md` 与 `00-System/MEMORY.md`。
+- 详细事实、项目知识、SOP 和历史归档全部下沉到本 Vault，不塞进每轮注入层。
+- 状态核查：`python3 /root/.hermes/scripts/obsidian_memory_status.py`。
+
 ## 读取入口
 
 - [[DECISIONS|长期决策]]
