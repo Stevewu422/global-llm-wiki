@@ -1,29 +1,28 @@
-# Wiki Index
+---
+title: Obsidian Vault Index
+created: 2026-07-23
+updated: 2026-07-23
+type: summary
+tags: [obsidian, knowledge-base, agent-workflow, inpay]
+sources: []
+confidence: high
+contested: false
+contradictions: []
+---
 
-> Content catalog for the local LLM Wiki implementation.
-> Last updated: 2026-07-23 | Total pages: 53
+# Obsidian Vault Index
 
-## Entities
-- [[kfchou-wiki-skills]]: Claude Code plugin that splits the wiki workflow into explicit skills.
-- [[lewislulu-llm-wiki-skill]]: OpenClaw/Codex-oriented skill with audit and preview tooling.
-- [[nashsu-llm-wiki]]: Desktop application version of the Karpathy LLM Wiki pattern.
-- [[ndjordjevic-pin-llm-wiki]]: Queue-driven ingest workflow with inbox and AGENTS guidance.
+## System
 
-## Concepts
-- [[llm-wiki-pattern]]: Core Karpathy-style model for persistent markdown knowledge bases.
-
-## Comparisons
-- [[llm-wiki-implementations]]: Practical comparison of four LLM Wiki implementation styles.
-
-## Obsidian AI Agent Memory Export
-
-- [[obsidian-vault/README|Public Obsidian Knowledge Vault]]
-- [[obsidian-vault/index|Obsidian Vault Index]]
+- [[obsidian-vault/README|Public export overview]]
 - [[obsidian-vault/00-System/HISTORY_CATALOG|历史知识总目录]]
 - [[obsidian-vault/00-System/KNOWLEDGE_ASSESSMENT|当前知识库评分]]
 - [[obsidian-vault/00-System/KNOWLEDGE_MAP|当前知识地图]]
 - [[obsidian-vault/00-System/MEMORY_POLICY|维护规则]]
 - [[obsidian-vault/00-System/MIGRATION_COVERAGE|迁移覆盖矩阵]]
+
+## Projects
+
 - [[obsidian-vault/30-Projects/AI-Agent-Ecosystem|AI Agent 生态]]
 - [[obsidian-vault/30-Projects/AI-Content-Production|AI 内容生产]]
 - [[obsidian-vault/30-Projects/ChatGPT-Voice-RayBan|ChatGPT 语音与 RayBan]]
@@ -37,6 +36,9 @@
 - [[obsidian-vault/30-Projects/README|Projects]]
 - [[obsidian-vault/30-Projects/Windows-Local-Ops|Windows 本机运维]]
 - [[obsidian-vault/30-Projects/World-Cup-Polymarket|世界杯与 Polymarket]]
+
+## Playbooks
+
 - [[obsidian-vault/40-Playbooks/Android-Standalone-APK-Delivery|Android 独立 APK 交付]]
 - [[obsidian-vault/40-Playbooks/Auth-State-Diagnostics|认证状态诊断]]
 - [[obsidian-vault/40-Playbooks/Business-Correspondence-Fact-Preservation|商务文本事实保真]]
@@ -49,6 +51,9 @@
 - [[obsidian-vault/40-Playbooks/Safe-Configuration-Change|安全配置变更]]
 - [[obsidian-vault/40-Playbooks/SoundWire-Audio-Recovery|SoundWire 音频恢复]]
 - [[obsidian-vault/40-Playbooks/Windows-Safe-Diagnostics|Windows 安全诊断]]
+
+## Domains
+
 - [[obsidian-vault/50-Domains/AI|AI]]
 - [[obsidian-vault/50-Domains/Crypto|Crypto]]
 - [[obsidian-vault/50-Domains/INPAY|INPAY]]
@@ -56,14 +61,17 @@
 - [[obsidian-vault/50-Domains/编程|编程]]
 - [[obsidian-vault/50-Domains/美股|美股]]
 - [[obsidian-vault/50-Domains/设计|设计]]
+
+## Templates and Archive
+
 - [[obsidian-vault/80-Templates/AI-Context|AI context template]]
 - [[obsidian-vault/80-Templates/AI-Memory|AI memory template]]
 - [[obsidian-vault/80-Templates/Daily|Daily template]]
 - [[obsidian-vault/80-Templates/Inbox|Inbox template]]
 - [[obsidian-vault/80-Templates/Project|Project template]]
 - [[obsidian-vault/90-Archive/History/2026-Operational-Timeline|2026 操作时间线]]
+
+## Durable AI Memory
+
 - [[obsidian-vault/97-AI-Memory/BEST-PRACTICES|最佳实践]]
 - [[obsidian-vault/97-AI-Memory/DECISIONS|长期决策]]
-
-## Queries
-<!-- Add filed query results here -->

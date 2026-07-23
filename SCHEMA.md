@@ -14,6 +14,19 @@ help the team build a durable internal knowledge base.
 - Every change must be appended to `log.md`.
 - Use provenance markers like `^[raw/articles/file.md]` on synthesis-heavy pages.
 
+### Portable Obsidian Vault Snapshot
+
+The `obsidian-vault/` directory is a public-safe portable snapshot of an existing
+Obsidian vault. It may preserve native vault directory names, Unicode file names,
+and established frontmatter types so internal wikilinks remain stable.
+
+- Its complete page catalog lives in `obsidian-vault/index.md`.
+- Every exported page is also listed from the root `index.md`.
+- Private user context, credentials, endpoints, workspace state, caches, backups,
+  and machine-specific deployment files must be excluded before export.
+- New root wiki pages outside this snapshot continue to follow lowercase,
+  hyphenated filenames and the standard frontmatter schema.
+
 ## Frontmatter
 ```yaml
 ---
