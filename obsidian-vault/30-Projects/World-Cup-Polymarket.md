@@ -26,10 +26,11 @@ domains: [Crypto, AI]
 
 ## 关联
 
-- [[obsidian-vault/50-Domains/Crypto]]
-- [[obsidian-vault/50-Domains/AI]]
+- [[50-Domains/Crypto]]
+- [[50-Domains/AI]]
 
 ## 来源
 
 - Codex 历史：world-cup-polymarket-skills-public
 - 历史 GitHub 仓库：`Stevewu422/world-cup-polymarket-skills-public`
+

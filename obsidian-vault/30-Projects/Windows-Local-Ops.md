@@ -29,11 +29,12 @@ domains: [Programming, INPAY]
 
 ## 关联
 
-- [[obsidian-vault/40-Playbooks/Windows-Safe-Diagnostics]]
-- [[obsidian-vault/50-Domains/编程]]
+- [[40-Playbooks/Windows-Safe-Diagnostics]]
+- [[50-Domains/编程]]
 
 ## 来源
 
 - Codex 历史：Windows performance and device troubleshooting
 - Codex 历史：automation/local-windows-maintenance
 - Codex 历史：Windows audio troubleshooting
+

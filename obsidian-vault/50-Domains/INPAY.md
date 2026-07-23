@@ -30,8 +30,8 @@ last_verified: 2026-07-23
 
 ## 历史项目
 
-- [[obsidian-vault/30-Projects/INPAY-Operations]]
-- [[obsidian-vault/30-Projects/AI-Agent-Ecosystem]]
+- [[30-Projects/INPAY-Operations]]
+- [[30-Projects/AI-Agent-Ecosystem]]
 
 ## 待研究
 

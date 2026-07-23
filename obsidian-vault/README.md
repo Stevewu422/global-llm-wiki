@@ -1,41 +1,44 @@
----
-title: Public Obsidian Knowledge Vault
-created: 2026-07-23
-updated: 2026-07-23
-type: summary
-tags: [obsidian, knowledge-base, agent-workflow, inpay]
-sources: []
-confidence: high
-contested: false
-contradictions: []
----
+# ChatGPT × Obsidian 记忆库
 
-# Public Obsidian Knowledge Vault
+这是一个本地优先、人工可审阅的 AI 记忆系统。Obsidian 负责浏览和编辑，ChatGPT/Codex 通过根目录的 `AGENTS.md` 获得读写规则。
 
-This directory is the public-safe knowledge export from Steve Wu's local Obsidian AI Agent memory system.
+## 快速开始
 
-## Included
+1. 在 Obsidian 中选择“打开本地仓库”，指向本目录。
+2. 打开 `Home.md`，从仪表盘进入各区域。
+3. 对 ChatGPT 说“记住：……”，它会按类型写入合适位置。
+4. 对 ChatGPT 说“从记忆里查……”，它会先读精炼记忆，再按需搜索历史。
+5. 定期运行：
 
-- Curated project knowledge
-- Reusable playbooks
-- Research-domain notes
-- Knowledge map and coverage assessment
-- Sanitized operational timeline
-- Reusable note templates
+```powershell
+.\Scripts\memory.ps1 check
+```
 
-## Excluded
+## 常用命令
 
-- User profile and private current context
-- Credentials, customer identity, payment secrets, private endpoints, and IP addresses
-- Obsidian workspace state, local cache, device identifiers, and backups
-- Server deployment scripts and machine-specific paths
+```powershell
+# 快速捕获一条待整理记忆
+.\Scripts\memory.ps1 capture -Text "需要记录的内容" -Topic "主题"
 
-## Start Here
+# 全库搜索
+.\Scripts\memory.ps1 search -Query "关键词"
 
-- [[obsidian-vault/index|Obsidian export index]]
-- [[obsidian-vault/00-System/KNOWLEDGE_MAP|Knowledge map]]
-- [[obsidian-vault/00-System/HISTORY_CATALOG|History catalog]]
-- [[obsidian-vault/50-Domains/README|Research domains]]
-- [[obsidian-vault/40-Playbooks/README|Reusable playbooks]]
+# 检查结构、敏感信息风险、长期记忆容量和失效链接
+.\Scripts\memory.ps1 check
+```
 
-The root [[index]] remains the catalog for the complete Global LLM Wiki.
+`capture` 只写入 Inbox，不会自动提升为长期记忆。长期记忆应由 ChatGPT 与你共同确认后整理。
+
+## 目录
+
+- `00-System`：用户画像、精炼长期记忆、维护说明
+- `06-Projects`：AI Agent 当前活跃项目入口
+- `10-Inbox`：未整理、未验证的输入
+- `20-Daily`：每日工作记录
+- `30-Projects`：项目背景、决策和状态
+- `40-Playbooks`：可复用流程
+- `80-Templates`：Obsidian 模板
+- `90-Archive`：不再活跃但需保留的材料
+- `97-AI-Memory`：跨 Agent 的长期经验、决策和最佳实践
+- `98-AI-Context`：跨 Agent 的当前任务上下文
+- `Scripts`：捕获、搜索和健康检查

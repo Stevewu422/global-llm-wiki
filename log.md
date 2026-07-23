@@ -21,3 +21,5 @@
 - Added a reviewed-memory inbox and a fast-forward-only local sync helper.
 - Defined GitHub `main` as portable authority while keeping private and
   machine-specific facts local.
+
+- 2026-07-24 00:24:10: Hermes cron synced public-safe Obsidian memory export (61 files, 2 skipped).

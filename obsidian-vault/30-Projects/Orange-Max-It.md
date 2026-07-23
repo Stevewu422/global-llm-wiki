@@ -28,10 +28,11 @@ domains: [Programming, INPAY]
 
 ## 关联
 
-- [[obsidian-vault/40-Playbooks/Android-Standalone-APK-Delivery]]
-- [[obsidian-vault/50-Domains/编程]]
-- [[obsidian-vault/50-Domains/INPAY]]
+- [[40-Playbooks/Android-Standalone-APK-Delivery]]
+- [[50-Domains/编程]]
+- [[50-Domains/INPAY]]
 
 ## 来源
 
 - Codex 历史：orange max it script maintenance and standalone APK packaging
+

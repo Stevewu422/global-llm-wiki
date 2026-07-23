@@ -30,12 +30,13 @@ domains: [INPAY, Crypto, AI]
 
 ## 关联
 
-- [[obsidian-vault/50-Domains/INPAY]]
-- [[obsidian-vault/50-Domains/Crypto]]
-- [[obsidian-vault/40-Playbooks/Business-Correspondence-Fact-Preservation]]
+- [[50-Domains/INPAY]]
+- [[50-Domains/Crypto]]
+- [[40-Playbooks/Business-Correspondence-Fact-Preservation]]
 
 ## 来源
 
 - Codex 历史：INPAY French-Chinese payment complaints and refund emails
 - Codex 历史：inpay2 workspace analysis and platform-terms risk boundary
 - 最后提炼：2026-07-23
+

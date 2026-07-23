@@ -46,9 +46,10 @@ flowchart LR
 
 ## 导航
 
-- [[obsidian-vault/97-AI-Memory/README|长期记忆]]
-- [[obsidian-vault/README|公开知识库说明]]
-- [[obsidian-vault/06-Projects/README|活跃项目]]
-- [[obsidian-vault/00-System/HISTORY_CATALOG|历史目录]]
-- [[obsidian-vault/50-Domains/README|研究领域]]
-- [[obsidian-vault/40-Playbooks/README|可复用流程]]
+- [[97-AI-Memory/README|长期记忆]]
+- [[98-AI-Context/CURRENT|当前上下文]]
+- [[06-Projects/README|活跃项目]]
+- [[00-System/HISTORY_CATALOG|历史目录]]
+- [[50-Domains/README|研究领域]]
+- [[40-Playbooks/README|可复用流程]]
+

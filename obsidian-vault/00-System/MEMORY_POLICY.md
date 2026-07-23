@@ -1,15 +1,3 @@
----
-title: AI Memory Maintenance Policy
-created: 2026-07-23
-updated: 2026-07-23
-type: summary
-tags: [obsidian, knowledge-base, agent-workflow]
-sources: []
-confidence: high
-contested: false
-contradictions: []
----
-
 # 维护规则
 
 ## 记忆生命周期
@@ -43,3 +31,4 @@ contradictions: []
 - 检查超过 90 天未验证的事实
 - 合并重复条目
 - 控制 USER 和 MEMORY 的容量
+

@@ -31,8 +31,9 @@ updated: 2026-07-23
 
 ## 主题入口
 
-- [[obsidian-vault/00-System/HISTORY_CATALOG]]
-- [[obsidian-vault/00-System/MIGRATION_COVERAGE]]
-- [[obsidian-vault/30-Projects/Windows-Local-Ops]]
-- [[obsidian-vault/30-Projects/AI-Agent-Ecosystem]]
-- [[obsidian-vault/30-Projects/INPAY-Operations]]
+- [[00-System/HISTORY_CATALOG]]
+- [[00-System/MIGRATION_COVERAGE]]
+- [[30-Projects/Windows-Local-Ops]]
+- [[30-Projects/AI-Agent-Ecosystem]]
+- [[30-Projects/INPAY-Operations]]
+

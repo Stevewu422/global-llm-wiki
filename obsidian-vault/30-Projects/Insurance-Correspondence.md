@@ -23,10 +23,11 @@ domains: [INPAY]
 
 ## 关联
 
-- [[obsidian-vault/40-Playbooks/Business-Correspondence-Fact-Preservation]]
-- [[obsidian-vault/30-Projects/INPAY-Operations]]
+- [[40-Playbooks/Business-Correspondence-Fact-Preservation]]
+- [[30-Projects/INPAY-Operations]]
 
 ## 来源
 
 - Codex 历史：Japanese insurance-claim correspondence and Chinese translation
 - 最后提炼：2026-07-23
+

@@ -21,3 +21,4 @@ last_verified: 2026-07-23
 - 历史快照不冒充当前状态。
 - 同一知识只保留一个 canonical 来源。
 - 无法验证的内容标为 `unverified`。
+

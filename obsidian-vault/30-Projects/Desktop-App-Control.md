@@ -23,10 +23,11 @@ domains: [Programming]
 
 ## 关联
 
-- [[obsidian-vault/40-Playbooks/Desktop-Process-Targeted-Restart]]
-- [[obsidian-vault/30-Projects/Windows-Local-Ops]]
+- [[40-Playbooks/Desktop-Process-Targeted-Restart]]
+- [[30-Projects/Windows-Local-Ops]]
 
 ## 来源
 
 - Codex 历史：windows-desktop-process-management
 - Codex 历史：desktop media control
+

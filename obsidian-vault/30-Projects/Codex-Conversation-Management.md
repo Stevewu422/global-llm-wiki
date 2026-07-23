@@ -21,9 +21,10 @@ domains: [AI, Programming]
 
 ## 关联
 
-- [[obsidian-vault/30-Projects/AI-Agent-Ecosystem]]
-- [[obsidian-vault/50-Domains/AI]]
+- [[30-Projects/AI-Agent-Ecosystem]]
+- [[50-Domains/AI]]
 
 ## 来源
 
 - Codex 历史：Codex thread discovery and navigation
+

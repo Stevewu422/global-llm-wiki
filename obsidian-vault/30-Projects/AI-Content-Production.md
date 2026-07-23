@@ -23,11 +23,12 @@ domains: [AI, Design, Programming]
 
 ## 关联
 
-- [[obsidian-vault/50-Domains/AI]]
-- [[obsidian-vault/50-Domains/设计]]
-- [[obsidian-vault/40-Playbooks/Safe-Configuration-Change]]
+- [[50-Domains/AI]]
+- [[50-Domains/设计]]
+- [[40-Playbooks/Safe-Configuration-Change]]
 
 ## 来源
 
 - Codex 历史：Inpay logo redesign delivery
 - 既有 AI 视频与内容生产工作区经验
+
