@@ -1,0 +1,46 @@
+---
+title: Shared Memory Protocol
+type: protocol
+status: active
+updated: 2026-07-23
+tags: [agents, memory, synchronization]
+---
+
+# Shared Memory Protocol
+
+## Authority model
+
+- GitHub `main` is the canonical portable memory.
+- Local Agent files are small routing layers and may contain private,
+  machine-specific facts.
+- Obsidian is the human-readable authoring and review surface.
+
+## Read cycle
+
+1. `git pull --ff-only`
+2. Read [[agents/shared]] and the current Agent adapter.
+3. Retrieve only task-relevant linked pages.
+4. Prefer the newest verified statement when sources conflict.
+
+## Write cycle
+
+1. Classify the candidate as durable, temporary, private, or uncertain.
+2. Discard temporary chatter.
+3. Keep private facts local.
+4. Put uncertain portable facts in [[inbox/README|inbox]].
+5. Update an existing page when possible.
+6. Update [[index]] and [[log]].
+7. Run lint, link, index, and sensitive-data checks.
+8. Pull/rebase, then publish only with the required authorization.
+
+## Conflict policy
+
+- Never force-push shared memory.
+- Do not silently overwrite a contradictory verified fact.
+- Record source and date when facts are time-sensitive.
+- If a conflict changes user intent or an external action, ask the user.
+
+## Safety boundary
+
+Do not commit secrets, passwords, access tokens, cookies, private keys, private
+endpoints, raw conversation archives, or personal contact/payment identifiers.

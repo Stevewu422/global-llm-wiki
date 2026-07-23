@@ -32,3 +32,11 @@ python ~/.codex/tools/llm_wiki_cli.py lint
 - This wiki is global and should be reused across projects.
 - Project-local notes can reference it, but the canonical long-term memory lives here.
 - When a repo needs durable knowledge, add raw sources or structured pages here first.
+
+## Shared Agent Memory
+
+- Claude, Codex, and Hermes share this repository as their portable long-term memory.
+- Start with `agents/shared.md`, then read the current adapter under `agents/`.
+- Retrieve only task-relevant pages from `obsidian-vault/index.md`.
+- Follow `agents/MEMORY_PROTOCOL.md` for writes and conflict handling.
+- Keep credentials, private endpoints, and machine-specific private facts local.

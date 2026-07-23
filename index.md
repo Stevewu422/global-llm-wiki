@@ -1,7 +1,17 @@
 # Wiki Index
 
 > Content catalog for the local LLM Wiki implementation.
-> Last updated: 2026-07-23 | Total pages: 53
+> Last updated: 2026-07-23 | Total pages: 60
+
+## Shared Agent Memory
+
+- [[agents/README|Shared Agent Memory]]
+- [[agents/shared|Shared Operating Context]]
+- [[agents/MEMORY_PROTOCOL|Shared Memory Protocol]]
+- [[agents/codex|Codex Memory Adapter]]
+- [[agents/claude|Claude Memory Adapter]]
+- [[agents/hermes|Hermes Memory Adapter]]
+- [[inbox/README|Shared Memory Inbox]]
 
 ## Entities
 - [[kfchou-wiki-skills]]: Claude Code plugin that splits the wiki workflow into explicit skills.
