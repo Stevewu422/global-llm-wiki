@@ -60,3 +60,5 @@
   endpoints, and server-only facts outside the portable snapshot.
 - Required a clean worktree before fast-forward synchronization and retained the
   Linux executable mode for the Bash entry point.
+
+- 2026-07-26 13:48:04: Hermes guarded sync exported public-safe Obsidian memory (62 files, 2 skipped).
