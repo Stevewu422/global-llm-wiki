@@ -1,8 +1,8 @@
 # Public-safe Obsidian export manifest
 
-Generated: 2026-07-26 13:10:35
+Generated: 2026-07-26 13:11:26
 
-Copied files: 61
+Copied files: 62
 
 ## Excluded by policy
 
