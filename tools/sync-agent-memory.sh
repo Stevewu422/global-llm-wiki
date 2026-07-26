@@ -23,7 +23,8 @@ required=(
   agents/hermes.md
   agents/MEMORY_PROTOCOL.md
   obsidian-vault/Home.md
-  obsidian-vault/00-System/OBSIDIAN_MEMORY_MODE.md
+  tools/check-shared-memory.py
+  tools/sync-agent-memory.sh
 )
 
 for relative_path in "${required[@]}"; do
@@ -32,6 +33,11 @@ for relative_path in "${required[@]}"; do
     exit 1
   fi
 done
+
+if [[ -e "$repository_path/obsidian-vault/index.md" ]]; then
+  printf 'Deprecated entry exists and must not be used: obsidian-vault/index.md\n' >&2
+  exit 1
+fi
 
 python3 "$repository_path/tools/check-shared-memory.py"
 

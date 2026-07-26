@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the local LLM Wiki implementation.
-> Last updated: 2026-07-26 | Exported Obsidian pages: 63
+> Last updated: 2026-07-26 | Exported Obsidian pages: Home-rooted public-safe snapshot
 
 ## Shared Agent Memory
 
@@ -28,7 +28,7 @@
 ## Obsidian AI Agent Memory Export
 
 - [[obsidian-vault/README|Public Obsidian Knowledge Vault]]
-- [[obsidian-vault/Home|Obsidian Vault Home]]
+- [[obsidian-vault/Home|Obsidian Vault Home]] (canonical snapshot entry; no the legacy snapshot index file)
 - [[obsidian-vault/AGENTS|Vault Agent Guide]]
 - [[obsidian-vault/CLAUDE|Vault Claude Guide]]
 - [[obsidian-vault/EXPORT_MANIFEST|Public Export Manifest]]

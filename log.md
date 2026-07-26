@@ -52,7 +52,7 @@
 
 ## 2026-07-26 — Harden shared-memory synchronization
 
-- Replaced the retired `obsidian-vault/index.md` route with `obsidian-vault/Home.md`
+- Replaced the retired the legacy snapshot index file route with `obsidian-vault/Home.md`
   across Claude, Codex, Hermes, protocol, and sync adapters.
 - Added a read-only publication gate for Wiki links, root-index coverage, legacy
   routes, and common sensitive patterns.

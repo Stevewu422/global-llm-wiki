@@ -44,3 +44,10 @@ tags: [agents, shared, context]
 Read only the pages relevant to the current task. Start from
 [[obsidian-vault/Home]], then follow project, domain, or playbook links. Do not
 load the entire vault into every prompt.
+
+
+## Canonical entry
+
+- Use [[obsidian-vault/Home]] as the only Obsidian snapshot entry.
+- Do not create, link, or depend on the legacy snapshot index file.
+- Local Vault `/root/obsidian-vault` is the read/write authority; this repo is the portable public-safe copy.
