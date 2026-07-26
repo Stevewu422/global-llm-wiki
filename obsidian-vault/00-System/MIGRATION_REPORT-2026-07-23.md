@@ -42,4 +42,3 @@ source: codex-memory-and-global-llm-wiki
 - 历史事实只代表当时已验证结果，不代表当前状态。
 - 使用项目知识前，应重新检查路径、仓库状态、设备状态或线上数据。
 - 新知识继续遵循 `[[MEMORY_POLICY]]`。
-

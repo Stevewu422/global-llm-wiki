@@ -35,13 +35,12 @@ domains: [AI, Programming, INPAY]
 
 ## 关联
 
-- [[50-Domains/AI]]
-- [[50-Domains/编程]]
-- [[40-Playbooks/Knowledge-Migration]]
+- AI
+- 编程
+- Knowledge-Migration
 
 ## 来源
 
 - Codex 历史：ChatGPT web voice companion
 - Codex 历史：local Codex auth diagnostics
 - GitHub `Stevewu422/global-llm-wiki`
-

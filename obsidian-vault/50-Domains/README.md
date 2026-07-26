@@ -14,7 +14,7 @@
 
 ## Hermes 原记忆迁入领域页
 
-- [[Finance-Trading-Memory|投资 / 股票 / Crypto 记忆]]
-- [[Research-Psychology-Education-Memory|科研 / 心理 / 教育记忆]]
+- 投资 / 股票 / Crypto 记忆
+- 科研 / 心理 / 教育记忆
 - [[Media-Visual-Production-Memory|媒体 / 视频 / 视觉生产记忆]]
-- [[Personal-Family-Admin-Memory|个人 / 家庭 / 留学 / 行政记忆]]
+- 个人 / 家庭 / 留学 / 行政记忆

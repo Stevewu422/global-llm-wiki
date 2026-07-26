@@ -28,8 +28,8 @@ last_verified: 2026-07-23
 
 ## 历史项目
 
-- [[30-Projects/AI-Agent-Ecosystem]]
-- [[30-Projects/AI-Content-Production]]
+- AI-Agent-Ecosystem
+- AI-Content-Production
 
 ## 待研究
 

@@ -28,12 +28,11 @@ domains: [AI, Programming]
 
 ## 关联
 
-- [[40-Playbooks/SoundWire-Audio-Recovery]]
-- [[40-Playbooks/Auth-State-Diagnostics]]
-- [[30-Projects/AI-Agent-Ecosystem]]
+- SoundWire-Audio-Recovery
+- Auth-State-Diagnostics
+- AI-Agent-Ecosystem
 
 ## 来源
 
 - Codex 历史：ChatGPT web voice companion
 - Codex 历史：Windows audio troubleshooting in rayban手机连接
-

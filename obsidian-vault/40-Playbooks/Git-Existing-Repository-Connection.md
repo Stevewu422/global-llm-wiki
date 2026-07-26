@@ -22,4 +22,3 @@ git status --short --branch
 git remote -v
 git log -1 --oneline --decorate
 ```
-

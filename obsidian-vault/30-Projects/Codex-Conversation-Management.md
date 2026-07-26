@@ -21,10 +21,9 @@ domains: [AI, Programming]
 
 ## 关联
 
-- [[30-Projects/AI-Agent-Ecosystem]]
-- [[50-Domains/AI]]
+- AI-Agent-Ecosystem
+- AI
 
 ## 来源
 
 - Codex 历史：Codex thread discovery and navigation
-

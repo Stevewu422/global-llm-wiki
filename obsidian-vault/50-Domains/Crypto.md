@@ -27,8 +27,8 @@ last_verified: 2026-07-23
 
 ## 历史项目
 
-- [[30-Projects/World-Cup-Polymarket]]
-- [[30-Projects/INPAY-Operations]]
+- World-Cup-Polymarket
+- INPAY-Operations
 
 ## 待研究
 

@@ -7,57 +7,57 @@ updated: 2026-07-23
 
 ## 核心
 
-- 用户偏好：仅保留在本机 Vault；共享协作偏好见 `agents/shared.md`
-- 长期记忆路由：仅保留在本机 Vault
-- [[00-System/MEMORY_POLICY|维护规则]]
-- [[00-System/MIGRATION_MAP|记忆映射]]
-- [[97-AI-Memory/README|AI Agent 长期记忆]]
-- AI Agent 当前上下文：仅保留在本机 Vault
-- [[06-Projects/README|AI Agent 活跃项目]]
+- 用户偏好
+- 长期记忆
+- 维护规则
+- 记忆映射
+- AI Agent 长期记忆
+- AI Agent 当前上下文
+- AI Agent 活跃项目
 
 ## 工作区
 
-- 收件箱：仅保留在本机 Vault
-- 每日记录：仅保留在本机 Vault
-- 历史项目：公开安全摘要见下方链接
-- [[40-Playbooks/README|可复用流程]]
-- [[50-Domains/README|研究领域]]
+- 收件箱
+- 每日记录
+- 项目
+- 可复用流程
+- 研究领域
 
 ## 主要研究领域
 
-- [[50-Domains/AI|AI]]
-- [[50-Domains/Crypto|Crypto]]
-- [[50-Domains/美股|美股]]
-- [[50-Domains/编程|编程]]
-- [[50-Domains/设计|设计]]
-- [[50-Domains/INPAY|INPAY]]
+- AI
+- Crypto
+- 美股
+- 编程
+- 设计
+- INPAY
 
 ## 当前状态
 
 - 系统建立：2026-07-23
-- 历史知识迁移：[[00-System/MIGRATION_REPORT-2026-07-23|已完成首轮提炼注入]]
+- 历史知识迁移：已完成首轮提炼注入
 - GitHub 权威知识源：[Stevewu422/global-llm-wiki](https://github.com/Stevewu422/global-llm-wiki)
 - 长期记忆：已写入协作偏好、项目经验和可复用方法
 
 ## 历史项目
 
-- [[30-Projects/INPAY-Operations|INPAY 运营与支持]]
-- [[30-Projects/AI-Agent-Ecosystem|AI Agent 生态]]
-- [[30-Projects/Windows-Local-Ops|Windows 本机运维]]
-- [[30-Projects/AI-Content-Production|AI 内容生产]]
-- [[30-Projects/World-Cup-Polymarket|世界杯与 Polymarket]]
-- [[30-Projects/Insurance-Correspondence|保险索赔与商务邮件]]
-- [[30-Projects/ChatGPT-Voice-RayBan|ChatGPT 语音与 RayBan]]
-- Hermes 远程运维：仅保留在本机 Vault
-- [[30-Projects/Orange-Max-It|Orange Max It]]
-- [[30-Projects/Printing-Device-Ops|打印与设备运维]]
-- [[30-Projects/Desktop-App-Control|桌面应用控制]]
-- [[30-Projects/Codex-Conversation-Management|Codex 对话管理]]
+- INPAY 运营与支持
+- AI Agent 生态
+- Windows 本机运维
+- AI 内容生产
+- 世界杯与 Polymarket
+- 保险索赔与商务邮件
+- ChatGPT 语音与 RayBan
+- Hermes 远程运维
+- Orange Max It
+- 打印与设备运维
+- 桌面应用控制
+- Codex 对话管理
 
 ## 历史总目录
 
-- [[00-System/HISTORY_CATALOG|历史知识总目录]]
-- [[00-System/MIGRATION_COVERAGE|迁移覆盖矩阵]]
-- [[00-System/KNOWLEDGE_ASSESSMENT|当前知识库评分]]
-- [[00-System/KNOWLEDGE_MAP|当前知识地图]]
-- [[90-Archive/History/2026-Operational-Timeline|2026 操作时间线]]
+- 历史知识总目录
+- 迁移覆盖矩阵
+- 当前知识库评分
+- 当前知识地图
+- 2026 操作时间线

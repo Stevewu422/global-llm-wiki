@@ -21,10 +21,9 @@ domains: [Programming, INPAY]
 
 ## 关联
 
-- [[40-Playbooks/Printer-End-to-End-Verification]]
-- [[30-Projects/Windows-Local-Ops]]
+- Printer-End-to-End-Verification
+- Windows-Local-Ops
 
 ## 来源
 
 - Codex 历史：Windows printer troubleshooting in inpay2
-

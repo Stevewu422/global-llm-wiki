@@ -14,13 +14,12 @@ updated: 2026-07-23
 
 ## 领域项目入口
 
-- [[30-Projects/INPAY-Operations]]
-- [[30-Projects/AI-Agent-Ecosystem]]
-- [[30-Projects/AI-Content-Production]]
-- [[30-Projects/Windows-Local-Ops]]
+- INPAY-Operations
+- AI-Agent-Ecosystem
+- AI-Content-Production
+- Windows-Local-Ops
 
 ## 已归档历史
 
-- [[00-System/HISTORY_CATALOG]]
-- [[90-Archive/History/2026-Operational-Timeline]]
-
+- HISTORY_CATALOG
+- 2026-Operational-Timeline

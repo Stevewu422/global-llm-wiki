@@ -31,9 +31,8 @@ updated: 2026-07-23
 
 ## 主题入口
 
-- [[00-System/HISTORY_CATALOG]]
-- [[00-System/MIGRATION_COVERAGE]]
-- [[30-Projects/Windows-Local-Ops]]
-- [[30-Projects/AI-Agent-Ecosystem]]
-- [[30-Projects/INPAY-Operations]]
-
+- HISTORY_CATALOG
+- MIGRATION_COVERAGE
+- Windows-Local-Ops
+- AI-Agent-Ecosystem
+- INPAY-Operations

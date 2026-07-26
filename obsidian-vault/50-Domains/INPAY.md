@@ -30,8 +30,8 @@ last_verified: 2026-07-23
 
 ## 历史项目
 
-- [[30-Projects/INPAY-Operations]]
-- [[30-Projects/AI-Agent-Ecosystem]]
+- INPAY-Operations
+- AI-Agent-Ecosystem
 
 ## 待研究
 

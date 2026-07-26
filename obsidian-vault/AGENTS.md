@@ -49,3 +49,14 @@
 - 中文解释。
 - 如果准备提交 Git，提交前先列出验证命令并执行。
 - 发布或外发前必须获得确认。
+
+
+## 统一入口与读取顺序
+
+- 统一入口：`Home.md`。不得使用或重新生成 the legacy snapshot index file。
+- 标准读取顺序：
+  1. `00-System/USER.md`
+  2. `98-AI-Context/CURRENT.md`
+  3. `00-System/MEMORY.md`
+  4. 最少的相关项目或长期记忆页面
+- GitHub 共享仓库只保存公开安全副本；Vault 是本机唯一记忆读写入口。

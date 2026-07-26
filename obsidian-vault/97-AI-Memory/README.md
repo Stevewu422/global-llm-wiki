@@ -20,11 +20,11 @@ agents: [Codex, Claude-Code, Cursor]
 
 - [[DECISIONS|长期决策]]
 - [[BEST-PRACTICES|最佳实践]]
-- 用户偏好：仅保留在本机 Vault
-- 核心记忆路由：仅保留在本机 Vault
-- [[00-System/HISTORY_CATALOG|历史知识总目录]]
-- [[40-Playbooks/README|可复用工作流]]
-- [[50-Domains/README|研究领域]]
+- 用户偏好
+- 核心记忆路由
+- 历史知识总目录
+- 可复用工作流
+- 研究领域
 
 ## 写入条件
 
@@ -52,7 +52,7 @@ agents: [Codex, Claude-Code, Cursor]
 
 ## Hermes 原记忆迁入通用页
 
-- `General-Legacy-Memory.md`（本机私有）
+- 通用遗留记忆
 
 ## 外部知识源
 
