@@ -62,7 +62,7 @@
 - [[obsidian-vault/40-Playbooks/Knowledge-Migration|知识迁移]]
 - [[obsidian-vault/40-Playbooks/Printer-End-to-End-Verification|打印任务端到端验证]]
 - [[obsidian-vault/40-Playbooks/README|Playbooks]]
-- [[obsidian-vault/40-Playbooks/Remote-SSH-Layer-Triage|SSH 分层诊断]]
+- SSH 分层诊断（local/private page excluded from public export）
 - [[obsidian-vault/40-Playbooks/Scheduling-Attendance-Memory|排班与考勤记忆]]
 - [[obsidian-vault/40-Playbooks/Safe-Configuration-Change|安全配置变更]]
 - [[obsidian-vault/40-Playbooks/SoundWire-Audio-Recovery|SoundWire 音频恢复]]
@@ -71,10 +71,10 @@
 - [[obsidian-vault/50-Domains/Crypto|Crypto]]
 - [[obsidian-vault/50-Domains/INPAY|INPAY]]
 - [[obsidian-vault/50-Domains/README|研究领域]]
-- [[obsidian-vault/50-Domains/Finance-Trading-Memory|金融与交易记忆]]
+- 金融与交易记忆（local/private page excluded from public export）
 - [[obsidian-vault/50-Domains/Media-Visual-Production-Memory|媒体与视觉生产记忆]]
-- [[obsidian-vault/50-Domains/Personal-Family-Admin-Memory|个人与家庭行政记忆]]
-- [[obsidian-vault/50-Domains/Research-Psychology-Education-Memory|研究、心理与教育记忆]]
+- 个人与家庭行政记忆（local/private page excluded from public export）
+- 研究、心理与教育记忆（local/private page excluded from public export）
 - [[obsidian-vault/50-Domains/编程|编程]]
 - [[obsidian-vault/50-Domains/美股|美股]]
 - [[obsidian-vault/50-Domains/设计|设计]]
