@@ -31,7 +31,7 @@ updated: 2026-07-23
 
 ## 服务器、代码与移动端
 
-- [[30-Projects/Hermes-Remote-Ops]]
+- Hermes 远程运维：仅保留在本机 Vault
 - [[30-Projects/Orange-Max-It]]
 - [[40-Playbooks/Remote-SSH-Layer-Triage]]
 - [[40-Playbooks/Git-Existing-Repository-Connection]]

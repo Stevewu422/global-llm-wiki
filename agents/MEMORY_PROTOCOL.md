@@ -10,7 +10,8 @@ tags: [agents, memory, synchronization]
 
 ## Authority model
 
-- GitHub `main` is the canonical portable memory.
+- The Obsidian vault is the read/write surface for humans and agents.
+- GitHub `main` is the canonical portable shared copy and synchronization source.
 - Local Agent files are small routing layers and may contain private,
   machine-specific facts.
 - Obsidian is the human-readable authoring and review surface.
@@ -29,7 +30,7 @@ tags: [agents, memory, synchronization]
 3. Keep private facts local.
 4. Put uncertain portable facts in [[inbox/README|inbox]].
 5. Update an existing page when possible.
-6. Update [[index]] and [[log]].
+6. Update [[obsidian-vault/Home]] and [[log]].
 7. Run lint, link, index, and sensitive-data checks.
 8. Pull/rebase, then publish only with the required authorization.
 

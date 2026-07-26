@@ -14,14 +14,14 @@ total_entries: 143
 - 原文归档不可删除；主题页用于检索和后续精炼。
 
 ## 主题页
-- [[30-Projects/Hermes-Agent-Ops-Memory|Hermes / Agent / App / 服务器运维]]：16 条
-- [[30-Projects/INPAY-Operations-Memory|INPAY / OpenClaw / Wave / 三方对账]]：76 条
+- `30-Projects/Hermes-Agent-Ops-Memory.md`（本机私有）：16 条
+- `30-Projects/INPAY-Operations-Memory.md`（本机私有）：76 条
 - [[40-Playbooks/Scheduling-Attendance-Memory|排班 / 考勤 / 运营]]：1 条
 - [[50-Domains/Finance-Trading-Memory|投资 / 股票 / Crypto]]：15 条
 - [[50-Domains/Media-Visual-Production-Memory|媒体 / 视频 / 视觉生产]]：5 条
 - [[50-Domains/Personal-Family-Admin-Memory|个人 / 家庭 / 留学 / 行政]]：10 条
 - [[50-Domains/Research-Psychology-Education-Memory|科研 / 心理 / 教育]]：14 条
-- [[97-AI-Memory/General-Legacy-Memory|通用遗留记忆]]：6 条
+- `97-AI-Memory/General-Legacy-Memory.md`（本机私有）：6 条
 
 ## 覆盖统计
 
@@ -38,5 +38,5 @@ total_entries: 143
 
 ## INPAY 细分索引
 
-- INPAY 总入口：[[30-Projects/INPAY-Operations-Memory]]
+- INPAY 总入口：`30-Projects/INPAY-Operations-Memory.md`（本机私有）
 - 细分目录：`30-Projects/INPAY-Memory/`

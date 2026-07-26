@@ -14,11 +14,11 @@ For non-trivial work related to prior projects or user preferences:
 
 1. Pull the local clone with fast-forward only.
 2. Read [[agents/shared]].
-3. Read the smallest relevant set of pages from [[obsidian-vault/index]].
+3. Read the smallest relevant set of pages from [[obsidian-vault/Home]].
 
 ## Updates
 
-- Treat local Codex memory as a fast task index, not a competing source of truth.
+- Treat local Codex memory as a routing cache, not a competing knowledge store.
 - Promote only verified and reusable knowledge to this repository.
 - Put uncertain candidates in [[inbox/README|inbox]].
 - Run the repository lint and safety checks before committing.

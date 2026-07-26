@@ -15,7 +15,7 @@ For work that depends on prior context:
 1. Pull the local clone with fast-forward only.
 2. Read [[agents/shared]].
 3. Read the relevant project, domain, or playbook pages from
-   [[obsidian-vault/index]].
+   [[obsidian-vault/Home]].
 
 ## Updates
 

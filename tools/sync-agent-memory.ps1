@@ -8,6 +8,12 @@ if (-not (Test-Path -LiteralPath (Join-Path $RepositoryPath '.git'))) {
     throw "Not a Git repository: $RepositoryPath"
 }
 
+$worktreeState = @(git -C $RepositoryPath status --porcelain)
+if ($LASTEXITCODE -ne 0) { throw 'git status failed' }
+if ($worktreeState.Count -gt 0) {
+    throw 'Shared-memory worktree is not clean. Preserve and review local changes before syncing.'
+}
+
 git -C $RepositoryPath fetch origin main
 if ($LASTEXITCODE -ne 0) { throw 'git fetch failed' }
 
@@ -22,7 +28,8 @@ $required = @(
     'agents/claude.md',
     'agents/hermes.md',
     'agents/MEMORY_PROTOCOL.md',
-    'obsidian-vault/index.md'
+    'obsidian-vault/Home.md',
+    'obsidian-vault/00-System/OBSIDIAN_MEMORY_MODE.md'
 )
 
 foreach ($relativePath in $required) {
@@ -31,5 +38,13 @@ foreach ($relativePath in $required) {
         throw "Missing required memory file: $relativePath"
     }
 }
+
+$checker = Join-Path $RepositoryPath 'tools\check-shared-memory.py'
+if (-not (Test-Path -LiteralPath $checker)) {
+    throw 'Missing shared-memory publication checker'
+}
+
+python $checker
+if ($LASTEXITCODE -ne 0) { throw 'Shared-memory publication gates failed' }
 
 Write-Output "Shared memory is current: $RepositoryPath"

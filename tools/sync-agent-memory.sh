@@ -8,6 +8,11 @@ if [[ ! -d "$repository_path/.git" ]]; then
   exit 1
 fi
 
+if [[ -n "$(git -C "$repository_path" status --porcelain)" ]]; then
+  printf 'Shared-memory worktree is not clean. Preserve and review local changes before syncing.\n' >&2
+  exit 1
+fi
+
 git -C "$repository_path" fetch origin main
 git -C "$repository_path" merge --ff-only origin/main
 
@@ -17,7 +22,8 @@ required=(
   agents/claude.md
   agents/hermes.md
   agents/MEMORY_PROTOCOL.md
-  obsidian-vault/index.md
+  obsidian-vault/Home.md
+  obsidian-vault/00-System/OBSIDIAN_MEMORY_MODE.md
 )
 
 for relative_path in "${required[@]}"; do
@@ -26,5 +32,7 @@ for relative_path in "${required[@]}"; do
     exit 1
   fi
 done
+
+python3 "$repository_path/tools/check-shared-memory.py"
 
 printf 'Shared memory is current: %s\n' "$repository_path"

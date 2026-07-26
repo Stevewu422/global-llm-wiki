@@ -7,19 +7,19 @@ updated: 2026-07-23
 
 ## 核心
 
-- [[00-System/USER|用户偏好]]
-- [[00-System/MEMORY|长期记忆]]
+- 用户偏好：仅保留在本机 Vault；共享协作偏好见 `agents/shared.md`
+- 长期记忆路由：仅保留在本机 Vault
 - [[00-System/MEMORY_POLICY|维护规则]]
 - [[00-System/MIGRATION_MAP|记忆映射]]
 - [[97-AI-Memory/README|AI Agent 长期记忆]]
-- [[98-AI-Context/CURRENT|AI Agent 当前上下文]]
+- AI Agent 当前上下文：仅保留在本机 Vault
 - [[06-Projects/README|AI Agent 活跃项目]]
 
 ## 工作区
 
-- [[10-Inbox/README|收件箱]]
-- [[20-Daily/README|每日记录]]
-- [[30-Projects/README|项目]]
+- 收件箱：仅保留在本机 Vault
+- 每日记录：仅保留在本机 Vault
+- 历史项目：公开安全摘要见下方链接
 - [[40-Playbooks/README|可复用流程]]
 - [[50-Domains/README|研究领域]]
 
@@ -48,7 +48,7 @@ updated: 2026-07-23
 - [[30-Projects/World-Cup-Polymarket|世界杯与 Polymarket]]
 - [[30-Projects/Insurance-Correspondence|保险索赔与商务邮件]]
 - [[30-Projects/ChatGPT-Voice-RayBan|ChatGPT 语音与 RayBan]]
-- [[30-Projects/Hermes-Remote-Ops|Hermes 远程运维]]
+- Hermes 远程运维：仅保留在本机 Vault
 - [[30-Projects/Orange-Max-It|Orange Max It]]
 - [[30-Projects/Printing-Device-Ops|打印与设备运维]]
 - [[30-Projects/Desktop-App-Control|桌面应用控制]]

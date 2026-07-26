@@ -17,7 +17,7 @@ This directory is the portable entry point for Claude, Codex, and Hermes.
    - [[agents/claude|Claude]]
    - [[agents/codex|Codex]]
    - [[agents/hermes|Hermes]]
-3. [[obsidian-vault/index|Obsidian vault index]]
+3. [[obsidian-vault/Home|Obsidian vault home]]
 4. The project or playbook relevant to the current task
 
 ## Write path

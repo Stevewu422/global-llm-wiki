@@ -35,6 +35,5 @@ git diff --check
 ## 关联
 
 - [[97-AI-Memory/README]]
-- [[98-AI-Context/CURRENT]]
+- 当前上下文：仅保留在本机 Vault
 - [[00-System/HISTORY_CATALOG]]
-

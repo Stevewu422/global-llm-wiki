@@ -12,7 +12,7 @@ tags: [agents, hermes, memory]
 
 1. Update the server clone with `git pull --ff-only`.
 2. Read [[agents/shared]] and this adapter.
-3. Retrieve only the relevant pages from [[obsidian-vault/index]].
+3. Retrieve only the relevant pages from [[obsidian-vault/Home]].
 
 ## Local memory boundary
 
@@ -20,7 +20,7 @@ tags: [agents, hermes, memory]
   pointer.
 - `~/.hermes/memories/MEMORY.md` contains a compact operational pointer and
   verified server-local facts.
-- The GitHub wiki remains canonical for portable long-term knowledge.
+- The Obsidian vault is the read/write surface; GitHub is the portable shared copy.
 - Server-only facts, credentials, and private endpoints must stay local.
 
 ## Updates

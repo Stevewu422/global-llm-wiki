@@ -49,3 +49,14 @@
 - 2026-07-26 13:10:35: Hermes cron synced public-safe Obsidian memory export (61 files, 2 skipped).
 
 - 2026-07-26 13:11:26: Hermes cron synced public-safe Obsidian memory export (62 files, 2 skipped).
+
+## 2026-07-26 — Harden shared-memory synchronization
+
+- Replaced the retired `obsidian-vault/index.md` route with `obsidian-vault/Home.md`
+  across Claude, Codex, Hermes, protocol, and sync adapters.
+- Added a read-only publication gate for Wiki links, root-index coverage, legacy
+  routes, and common sensitive patterns.
+- Kept private `USER.md`, `MEMORY.md`, `CURRENT.md`, Daily, Inbox, credentials,
+  endpoints, and server-only facts outside the portable snapshot.
+- Required a clean worktree before fast-forward synchronization and retained the
+  Linux executable mode for the Bash entry point.

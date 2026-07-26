@@ -21,13 +21,14 @@ tags: [agents, shared, context]
 
 ## Long-term knowledge policy
 
-- This repository is the canonical shared knowledge source.
+- The Obsidian vault is the human and agent read/write surface.
+- This repository is the portable shared copy and synchronization source.
 - Store durable decisions, verified facts, reusable workflows, project state,
   and best practices.
 - Do not store complete conversations or temporary task chatter.
 - Keep private operational details outside this public repository.
 - Prefer updating an existing page over creating a duplicate.
-- Link new pages from [[index]] and append meaningful changes to [[log]].
+- Link new pages from [[obsidian-vault/Home]] and append meaningful changes to [[log]].
 
 ## Research domains
 
@@ -41,5 +42,5 @@ tags: [agents, shared, context]
 ## Retrieval rule
 
 Read only the pages relevant to the current task. Start from
-[[obsidian-vault/index]], then follow project, domain, or playbook links. Do not
+[[obsidian-vault/Home]], then follow project, domain, or playbook links. Do not
 load the entire vault into every prompt.

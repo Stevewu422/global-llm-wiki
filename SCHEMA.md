@@ -20,7 +20,8 @@ The `obsidian-vault/` directory is a public-safe portable snapshot of an existin
 Obsidian vault. It may preserve native vault directory names, Unicode file names,
 and established frontmatter types so internal wikilinks remain stable.
 
-- Its complete page catalog lives in `obsidian-vault/index.md`.
+- Its navigation entry is `obsidian-vault/Home.md`; the complete exported page
+  catalog lives in the root `index.md`.
 - Every exported page is also listed from the root `index.md`.
 - Private user context, credentials, endpoints, workspace state, caches, backups,
   and machine-specific deployment files must be excluded before export.
