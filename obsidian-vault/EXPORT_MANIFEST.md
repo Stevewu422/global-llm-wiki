@@ -1,6 +1,6 @@
 # Public-safe Obsidian export manifest
 
-Generated: 2026-07-30 11:35:41
+Generated: 2026-07-30 13:31:46
 
 Copied files: 58
 
@@ -18,13 +18,9 @@ Copied files: 58
 
 ## Link sanitization
 
-- Public-only wikilink sanitization touched 9 files.
+- Public-only wikilink sanitization touched 1 files.
 
 ## Skipped by safety scan
 
-- 40-Playbooks/Remote-SSH-Layer-Triage.md (private operational pattern)
 - 30-Projects/README.md (private operational pattern)
 - 30-Projects/Hermes-Remote-Ops.md (private operational pattern)
-- 50-Domains/Personal-Family-Admin-Memory.md (private operational pattern)
-- 50-Domains/Research-Psychology-Education-Memory.md (private operational pattern)
-- 50-Domains/Finance-Trading-Memory.md (private operational pattern)
