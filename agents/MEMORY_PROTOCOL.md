@@ -2,7 +2,7 @@
 title: Shared Memory Protocol
 type: protocol
 status: active
-updated: 2026-07-23
+updated: 2026-07-30
 tags: [agents, memory, synchronization]
 ---
 
@@ -45,3 +45,12 @@ tags: [agents, memory, synchronization]
 
 Do not commit secrets, passwords, access tokens, cookies, private keys, private
 endpoints, raw conversation archives, or personal contact/payment identifiers.
+
+- A local Vault may intentionally be non-versioned. An empty Git shell with no
+  `HEAD` and zero tracked files is not, by itself, an unsafe worktree; validate
+  the Vault through its authority contract, required entries, conflict scan,
+  links, sensitive scan, backup, and readback.
+- Only the portable shared repository and server clone require Git worktree
+  cleanliness. Preserve and review unknown changes on either side.
+- Python bytecode and `__pycache__` are generated artifacts, never shared
+  memory. Ignore them and use AST-based syntax checks that do not create caches.

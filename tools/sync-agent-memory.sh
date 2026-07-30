@@ -24,6 +24,7 @@ required=(
   agents/MEMORY_PROTOCOL.md
   obsidian-vault/Home.md
   tools/check-shared-memory.py
+  tools/check-python-syntax.py
   tools/sync-agent-memory.sh
 )
 
@@ -39,6 +40,7 @@ if [[ -e "$repository_path/obsidian-vault/index.md" ]]; then
   exit 1
 fi
 
-python3 "$repository_path/tools/check-shared-memory.py"
+PYTHONDONTWRITEBYTECODE=1 python3 -B "$repository_path/tools/check-shared-memory.py"
+PYTHONDONTWRITEBYTECODE=1 python3 -B "$repository_path/tools/check-python-syntax.py"
 
 printf 'Shared memory is current: %s\n' "$repository_path"

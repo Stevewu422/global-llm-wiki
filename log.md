@@ -81,6 +81,17 @@
 
 - 2026-07-26 20:26:27: Hermes guarded sync exported public-safe Obsidian memory (58 files, 6 skipped, 34 link-sanitized files, 38 EOF-normalized files).
 
+## 2026-07-30 — Repair six-hour preflight gates
+
+- Classified the local Vault as the non-versioned authority when its optional
+  Git metadata has no commit and zero tracked files; its safety is validated by
+  the Vault contract, health, conflict, link, sensitive, backup, and readback
+  gates instead of treating every Vault page as an unknown Git change.
+- Moved confirmed generated Python bytecode to a recoverable local backup,
+  ignored future bytecode, and added an AST-only Python syntax gate.
+- Kept Git cleanliness mandatory for the portable shared clone and Hermes,
+  including the explicit `REMOTE_PREFLIGHT_OK` completion marker.
+
 - 2026-07-27 02:26:50: Hermes guarded sync exported public-safe Obsidian memory (58 files, 6 skipped, 34 link-sanitized files, 38 EOF-normalized files).
 
 - 2026-07-27 08:26:58: Hermes guarded sync exported public-safe Obsidian memory (58 files, 6 skipped, 34 link-sanitized files, 38 EOF-normalized files).

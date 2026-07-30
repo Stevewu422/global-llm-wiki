@@ -1,2 +1,6 @@
 .DS_Store
 Thumbs.db
+
+# Generated Python bytecode is never shared memory.
+__pycache__/
+*.py[cod]

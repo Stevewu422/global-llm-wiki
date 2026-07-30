@@ -29,7 +29,8 @@ $required = @(
     'agents/hermes.md',
     'agents/MEMORY_PROTOCOL.md',
     'obsidian-vault/Home.md',
-    'obsidian-vault/00-System/OBSIDIAN_MEMORY_MODE.md'
+    'obsidian-vault/00-System/OBSIDIAN_MEMORY_MODE.md',
+    'tools/check-python-syntax.py'
 )
 
 foreach ($relativePath in $required) {
@@ -44,7 +45,12 @@ if (-not (Test-Path -LiteralPath $checker)) {
     throw 'Missing shared-memory publication checker'
 }
 
-python $checker
+$env:PYTHONDONTWRITEBYTECODE = '1'
+python -B $checker
 if ($LASTEXITCODE -ne 0) { throw 'Shared-memory publication gates failed' }
+
+$syntaxChecker = Join-Path $RepositoryPath 'tools\check-python-syntax.py'
+python -B $syntaxChecker
+if ($LASTEXITCODE -ne 0) { throw 'Python syntax gates failed' }
 
 Write-Output "Shared memory is current: $RepositoryPath"
