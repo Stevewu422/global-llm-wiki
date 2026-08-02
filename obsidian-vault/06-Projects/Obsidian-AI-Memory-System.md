@@ -28,7 +28,7 @@ domains: [AI, Programming]
 - Codex 整轮任务已增加两小时陈旧门限的原子锁，并使用每轮唯一 Owner ID；
   重叠实例不能释放当前实例的锁。
 - Hermes 预检已现场验证输出真实仓库双哈希及 `REMOTE_PREFLIGHT_OK`；
-  本机、GitHub 与 Hermes 当前均为 `b3d8973`。
+  发布前基线三端一致，具体哈希仅作为当次回读证据，不写成长期“当前值”。
 
 ## 下一步
 
