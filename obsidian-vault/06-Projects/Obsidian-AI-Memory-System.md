@@ -47,7 +47,7 @@ git diff --check
 
 ## 关联
 
-- [[97-AI-Memory/README]]
+- README
 - CURRENT（本机私有入口，不进入公开共享副本）
-- [[00-System/HISTORY_CATALOG]]
-- [[00-System/OBSIDIAN_MEMORY_MODE]]
+- HISTORY_CATALOG
+- OBSIDIAN_MEMORY_MODE
