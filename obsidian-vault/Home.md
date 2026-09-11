@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-07-23
+updated: 2026-09-11
 ---
 
 # 记忆控制台
