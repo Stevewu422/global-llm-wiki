@@ -1,9 +1,11 @@
 # Wiki Index
 
 > Content catalog for the local LLM Wiki implementation.
-> Last updated: 2026-07-26 | Exported Obsidian pages: Home-rooted public-safe snapshot
+> Last updated: 2026-09-12 | Exported Obsidian pages: Home-rooted public-safe snapshot
 
 ## Shared Agent Memory
+
+- [[agents/steve-public-profile|Steve 公开共享画像]]：主人授权公开的精选偏好与跨端验收。
 
 - [[agents/README|Shared Agent Memory]]
 - [[agents/shared|Shared Operating Context]]

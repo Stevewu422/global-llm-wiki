@@ -2,13 +2,17 @@
 title: Shared Operating Context
 type: agent-context
 status: active
-updated: 2026-07-23
+updated: 2026-09-12
 tags: [agents, shared, context]
 ---
 
 # Shared Operating Context
 
 ## User collaboration preferences
+
+- For confirmed Steve conversations, read [[agents/steve-public-profile]] for the
+  owner-approved public profile and versioned acceptance test. Do not apply it
+  to other users. This is a selective public profile, not the private Vault.
 
 - Default to Chinese and lead with the outcome.
 - Move quickly: use a short plan for complex tasks, then execute without turning

@@ -1,9 +1,11 @@
 ---
 type: dashboard
-updated: 2026-09-11
+updated: 2026-09-12
 ---
 
 # 记忆控制台
+
+- [[agents/steve-public-profile|Steve 公开共享画像]]：版本化偏好；不包含完整私人记忆。
 
 ## 核心
 
