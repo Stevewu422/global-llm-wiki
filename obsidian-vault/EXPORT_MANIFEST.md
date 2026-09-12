@@ -1,6 +1,6 @@
 # Public-safe Obsidian export manifest
 
-Generated: 2026-08-03 03:12:48
+Generated: 2026-09-12 16:13:21
 
 Copied files: 58
 
@@ -18,7 +18,7 @@ Copied files: 58
 
 ## Link sanitization
 
-- Public-only wikilink sanitization touched 1 files.
+- Public-only wikilink sanitization touched 2 files.
 
 ## Skipped by safety scan
 
