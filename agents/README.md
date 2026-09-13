@@ -8,7 +8,8 @@ tags: [agents, memory, github]
 
 # Shared Agent Memory
 
-This directory is the portable entry point for Claude, Codex, and Hermes.
+This directory is the portable entry point for Claude, Codex, Hermes, and the
+public-safe ChatGPT handoff.
 
 ## Read order
 
@@ -17,6 +18,7 @@ This directory is the portable entry point for Claude, Codex, and Hermes.
    - [[agents/claude|Claude]]
    - [[agents/codex|Codex]]
    - [[agents/hermes|Hermes]]
+   - [[agents/chatgpt|ChatGPT desktop and mobile]]
 3. [[obsidian-vault/Home|Obsidian vault home]]
 4. The project or playbook relevant to the current task
 
