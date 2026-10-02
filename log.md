@@ -130,3 +130,5 @@
 - 2026-09-12: With explicit owner authorization, added agents/steve-public-profile.md as a selective public profile; updated agents/shared.md, index.md and obsidian-vault/Home.md retrieval links. Repository remains public. Full private memory and other users remain excluded; this does not establish automatic ChatGPT memory sync.
 
 - 2026-09-12 16:13:21: Hermes guarded sync exported public-safe Obsidian memory (58 files, 2 skipped, 20 link-sanitized files, 33 EOF-normalized files).
+
+- 2026-10-02: With explicit batch publication approval, published the structured citation convention and schema/index links. Private migration records and source pages remain excluded; syntax standardization is not factual verification.

@@ -6,6 +6,7 @@ Hermes/Codex/OpenClaw collaboration patterns, and external LLM Wiki approaches t
 help the team build a durable internal knowledge base.
 
 ## Conventions
+- Structured claim provenance follows [[citation-standard]]; legacy source descriptions are not automatically verified citations.
 - File names: lowercase, hyphens, no spaces.
 - Every wiki page starts with YAML frontmatter.
 - Use `[[wikilinks]]` for internal links; target at least 2 outbound links per page.

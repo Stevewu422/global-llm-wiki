@@ -94,4 +94,5 @@
 - [[obsidian-vault/98-AI-Context/README|AI Agent 上下文入口]]
 
 ## Queries
+ - [[citation-standard|Structured Citation Standard]]
 <!-- Add filed query results here -->
