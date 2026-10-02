@@ -33,3 +33,11 @@ Check required fields, unique IDs, nonempty locators, valid dates and verified_a
 Before batch migration, declare the directories and exclusions, back up each target, preserve its body, and independently read back the result. Skip existing citation metadata rather than silently replacing it. Review source gaps and high-risk unverified claims during periodic memory maintenance. Empty citation lists are allowed only in blank templates.
 
 This page publishes the reusable convention only, not private migration reports or historical source records.
+
+## Historical migration safeguards
+
+- Include playbooks in the declared audit scope, not just domain and project pages. Keep immutable archives and private shared snapshots outside bulk rewriting.
+- Reject duplicate top-level citation fields instead of silently selecting the first one.
+- Parse source values on one line only: an empty `source:` must not consume the next metadata key as evidence. Use horizontal whitespace, not a newline-matching whitespace expression.
+- Distinguish missing-source pages, malformed citations and unverified historical references in the audit summary. Expanded scope can increase the gap count without indicating data loss.
+- Re-run the migration to verify idempotency: already structured pages must remain unchanged. Preserve original source statements and factual verification dates.
