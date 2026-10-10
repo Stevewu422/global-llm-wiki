@@ -141,3 +141,9 @@
 - Owner requested shared-memory repair and Wiki publication.
 - Updated [[agents/hermes]] to use the existing guarded sync helper and canonical Home entry.
 - Clarified download versus publication and private/live context boundaries; no private memory was exported.
+
+## 2026-10-11 — Shared memory publication repair
+
+- Owner explicitly approved publication of the Steve shared-memory v2 page; indexed it and linked it from Home.
+- The local exporter now requires public catalog approval and rejects private-scope/catalog conflicts.
+- Lock cleanup only removes locks owned by the current execution; local-only notes remain outside the public export.

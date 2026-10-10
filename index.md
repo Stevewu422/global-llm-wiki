@@ -5,6 +5,8 @@
 
 ## Shared Agent Memory
 
+- [[obsidian-vault/97-AI-Memory/Steve-Obsidian-Shared-Memory-v2|Steve 共享记忆 v2]]：2026-10-11主人明确批准公开的页面。
+
 - [[agents/steve-public-profile|Steve 公开共享画像]]：主人授权公开的精选偏好与跨端验收。
 
 - [[agents/README|Shared Agent Memory]]
