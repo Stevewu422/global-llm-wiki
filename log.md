@@ -134,3 +134,10 @@
 - 2026-10-02: With explicit batch publication approval, published the structured citation convention and schema/index links. Private migration records and source pages remain excluded; syntax standardization is not factual verification.
 
 - 2026-10-02: With renewed batch approval, documented playbook coverage, duplicate citation detection, single-line source parsing and idempotent migration safeguards. Local historical pages, audit counts and private source records were not exported.
+
+
+## 2026-10-11 — Repair Hermes shared-memory startup guidance
+
+- Owner requested shared-memory repair and Wiki publication.
+- Updated [[agents/hermes]] to use the existing guarded sync helper and canonical Home entry.
+- Clarified download versus publication and private/live context boundaries; no private memory was exported.

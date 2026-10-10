@@ -2,7 +2,7 @@
 title: Hermes Memory Adapter
 type: agent-adapter
 status: active
-updated: 2026-07-23
+updated: 2026-10-11
 tags: [agents, hermes, memory]
 ---
 
@@ -10,9 +10,20 @@ tags: [agents, hermes, memory]
 
 ## Startup
 
-1. Update the server clone with `git pull --ff-only`.
-2. Read [[agents/shared]] and this adapter.
-3. Retrieve only the relevant pages from [[obsidian-vault/Home]].
+1. Run `bash tools/sync-agent-memory.sh` from the shared repository. This
+   checks for a clean worktree, fetches and fast-forwards `origin/main`, then
+   validates required entries, links, index coverage, sensitive patterns and
+   Python syntax. Stop on failure; preserve unknown local changes.
+2. Read [[agents/shared]] and this adapter, following
+   [[agents/MEMORY_PROTOCOL]].
+3. Retrieve only relevant pages from [[obsidian-vault/Home]], the canonical
+   snapshot entry. The root [[index]] is a catalog, not a second Vault entry.
+4. For private context, use the local Vault's user profile, current context
+   and memory routing pages. Do not substitute an old public snapshot for
+   private or live operational facts.
+
+The startup helper is download-only. A successful sync does not export local
+memory, publish changes, update another device, or synchronize ChatGPT memory.
 
 ## Local memory boundary
 
