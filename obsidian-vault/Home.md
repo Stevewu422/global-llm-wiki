@@ -64,4 +64,4 @@ updated: 2026-09-12
 - 当前知识地图
 - 2026 操作时间线
 
-- [[97-AI-Memory/Steve-Obsidian-Shared-Memory-v2|Steve 共享记忆 v2]]：2026-10-11主人明确批准公开。
+- Steve 共享记忆 v2：2026-10-11主人明确批准公开。

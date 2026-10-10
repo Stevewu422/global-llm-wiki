@@ -147,3 +147,5 @@
 - Owner explicitly approved publication of the Steve shared-memory v2 page; indexed it and linked it from Home.
 - The local exporter now requires public catalog approval and rejects private-scope/catalog conflicts.
 - Lock cleanup only removes locks owned by the current execution; local-only notes remain outside the public export.
+
+- 2026-10-11 07:05:16: Hermes guarded sync exported public-safe Obsidian memory (59 files, 2 skipped, 20 link-sanitized files, 33 EOF-normalized files).

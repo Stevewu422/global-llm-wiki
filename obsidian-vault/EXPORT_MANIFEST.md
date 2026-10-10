@@ -1,8 +1,8 @@
 # Public-safe Obsidian export manifest
 
-Generated: 2026-09-12 16:13:21
+Generated: 2026-10-11 07:05:16
 
-Copied files: 58
+Copied files: 59
 
 ## Canonical entry
 
@@ -18,9 +18,9 @@ Copied files: 58
 
 ## Link sanitization
 
-- Public-only wikilink sanitization touched 2 files.
+- Public-only wikilink sanitization touched 1 files.
 
 ## Skipped by safety scan
 
-- 30-Projects/README.md (private operational pattern)
-- 30-Projects/Hermes-Remote-Ops.md (private operational pattern)
+- 30-Projects/README.md (not approved in public catalog)
+- 30-Projects/Hermes-Remote-Ops.md (not approved in public catalog)
