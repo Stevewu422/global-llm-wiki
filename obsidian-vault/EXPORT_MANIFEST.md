@@ -1,6 +1,6 @@
 # Public-safe Obsidian export manifest
 
-Generated: 2026-10-14 01:50:16
+Generated: 2026-11-17 16:21:51
 
 Copied files: 59
 
@@ -18,9 +18,12 @@ Copied files: 59
 
 ## Link sanitization
 
-- Public-only wikilink sanitization touched 1 files.
+- Public-only wikilink sanitization touched 2 files.
 
 ## Skipped by safety scan
 
+- 97-AI-Memory/INPAY-Payout-Account-Dedup-Read-Gates.md (private scope)
+- 06-Projects/Orange-Readonly-Reference-Reconciliation.md (private scope)
+- 06-Projects/MTN-Cross-Month-Reference-Reconciliation.md (private scope)
 - 30-Projects/README.md (not approved in public catalog)
 - 30-Projects/Hermes-Remote-Ops.md (not approved in public catalog)

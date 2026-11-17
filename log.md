@@ -157,3 +157,5 @@
 - Prepared a reviewed public-safe update describing private versus public memory, new-computer onboarding, single-writer scheduling and separate acceptance evidence.
 - Replaced stale current-commit/count claims with live verification guidance and removed the server-specific assumption from shared Agent startup routing.
 - Clarified that catalog eligibility and successful no-op sync do not authorize future publication. No private profiles, Page identifiers, server connection details or operational records are included.
+
+- 2026-11-17 16:21:51: Hermes guarded sync exported public-safe Obsidian memory (59 files, 5 skipped, 20 link-sanitized files, 33 EOF-normalized files).

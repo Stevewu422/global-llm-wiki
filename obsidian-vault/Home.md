@@ -68,6 +68,6 @@ updated: 2026-11-15
 
 ## 共享记忆部署与维护
 
-- [[obsidian-vault/97-AI-Memory/Global-LLM-Wiki|新电脑接入、私有桥接与公开同步排错]]
-- [[obsidian-vault/06-Projects/Obsidian-AI-Memory-System|记忆系统分工与验收]]
-- [[agents/MEMORY_PROTOCOL|共享协议与发布确认]]
+- 新电脑接入、私有桥接与公开同步排错
+- 记忆系统分工与验收
+- 共享协议与发布确认
