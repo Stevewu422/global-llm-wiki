@@ -2,7 +2,7 @@
 title: Shared Operating Context
 type: agent-context
 status: active
-updated: 2026-09-12
+updated: 2026-11-15
 tags: [agents, shared, context]
 ---
 
@@ -54,4 +54,4 @@ load the entire vault into every prompt.
 
 - Use [[obsidian-vault/Home]] as the only Obsidian snapshot entry.
 - Do not create, link, or depend on the legacy snapshot index file.
-- Local Vault `/root/obsidian-vault` is the read/write authority; this repo is the portable public-safe copy.
+- The configured local Obsidian Vault is the read/write authority; paths differ between Windows workstations and Linux servers. This repo is the portable public-safe copy. Resolve machine-specific paths from the local routing configuration, not this public snapshot.

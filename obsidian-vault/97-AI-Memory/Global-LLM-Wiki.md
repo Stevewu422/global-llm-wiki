@@ -1,61 +1,48 @@
 ---
 type: external-knowledge-source
 status: active
-updated: 20260724-001155
+updated: 2026-11-15
 source_url: https://github.com/Stevewu422/global-llm-wiki
-local_repo: /root/global-llm-wiki
-archived_copy: 90-Archive/External/global-llm-wiki
-commit: c227d1dbb4ca15d85e6cc81071b99ffdb0080840
+scope: public-safe
 ---
 
 # Global LLM Wiki
 
-## 结论
+## 分工
 
-`Stevewu422/global-llm-wiki` 已下载到本机并作为 Obsidian 长期记忆的外部知识源接入。
+Obsidian Vault 是长期知识的统一维护入口；本仓库是经过审核的公开安全副本和跨设备下载源。ChatGPT 私人页面与 Hermes 私有快照使用独立桥接，不通过公开仓库传递完整私有记忆。
 
-- 本地 Git 仓库：`/root/global-llm-wiki`
-- Obsidian 归档副本：`90-Archive/External/global-llm-wiki`
-- 当前 commit：`c227d1d` / `c227d1dbb4ca15d85e6cc81071b99ffdb0080840`
-- Markdown 文件数：61
-- 总文件数：64
+共享内容包括可复用方法、流程、工具比较和经过核验的经验。私人画像、实时业务数据和机器专属配置留在受控环境。历史提交号和页面数量不是永久的“当前值”，需要时读取实际 Git 状态。
 
-## 用途
+## 新电脑接入
 
-这个仓库是跨项目 LLM Wiki / Obsidian AI memory 的公开安全版本，适合沉淀：
+1. 安装 Obsidian、Git、Python 和目标 Agent；连接现有 Hermes 时准备 SSH 客户端。
+2. 从受控备份恢复私有 Vault；另外克隆公开仓库。克隆公开仓库不能恢复私人记忆。
+3. 配置实际 Vault、仓库、Agent 入口和远端别名，逐项适配活跃脚本中的旧路径，保留历史证据原文。
+4. 沿用经核实的私人页面入口，确认当前账号和 Agent 工具具有访问能力；本机安装 Skill 不会自动给普通 ChatGPT 聊天增加工具。
+5. 验证 SSH 主机密钥、私有副本版本与内容。覆盖前备份，先传临时文件，校验后切换；未知远端修改先合并。
+6. 新电脑默认作为读取端；只有指定写入主机运行周期合并。单机文件锁不能防止两台电脑同时写入。
+7. 替换写入主机时，先完成手工验收、停用旧本机任务，再接管新任务；已有 Hermes 调度不重复创建。
 
-- Hermes / Codex / OpenClaw 协作模式
-- LLM Wiki 与 Markdown 长期知识库方法
-- 可复用 workflow、tool comparison、operating notes
-- 从聊天和项目中提炼出来、未来可复用的高信号知识
+## 读取与更新
 
-## 使用入口
+先读私有 Vault 的 USER、CURRENT、MEMORY，再读取最少相关项目页。公开入口是仓库的 Home；完整导出目录在根 index。
 
-- 仓库说明：README
-- Schema：SCHEMA
-- Agent Guide：AGENTS
-- Wiki Index：Wiki Index
-- Public Obsidian Snapshot：Obsidian Vault Home
-- LLM Wiki Pattern：llm-wiki-pattern
-- Implementations Comparison：llm-wiki-implementations
+新事实先形成候选，记录来源、日期、适用范围和基础版本；去重、检查冲突、核验后合并，再回读各副本。ChatGPT 私人页面需要实际加入对话上下文，不等于账户内置记忆，也不保证手机或新聊天自动加载。
 
-## 并入当前 Obsidian 记忆后的规则
+公开更新先准备文件清单、diff 和验证结果，再按本批授权提交、发布。索引中的页面只是允许进入内容筛选，不等于未来所有修改都获得持续发布授权。
 
-1. 不把该仓库全文塞进 `00-System/USER.md` 或 `00-System/MEMORY.md`，避免每轮注入过重。
-2. 高频只保留这个索引页和路径；需要细节时按链接读取归档副本或本地 Git 仓库。
-3. 如果后续要吸收其中某个 workflow，先验证，再精炼到 `40-Playbooks/` 或 `97-AI-Memory/`。
-4. 该仓库是公开安全版本；仍要继续执行密钥检查，禁止把私密地址、凭据、二维码并入公开 Wiki。
+## 检查无新提交的原因
 
-## 同步命令
+- 先读任务实际输出。`no portable changes` 表示没有可移植内容差异，不代表任务没有运行。
+- 区分本机私有修改、服务器 Vault 修改和已审核公开候选；未进入公开目录的新知识不会自动发布。
+- 检查前置门禁、候选来源、导出白名单和审批状态；不要用更新时间替代内容 diff。
+- 导出时间戳单独变化不应制造空提交；生成缓存不应作为规则正文扫描。
 
-```bash
-cd /root/global-llm-wiki
-git fetch origin main
-git merge --ff-only origin/main
-```
+## 验收
 
-同步后如需刷新 Obsidian 归档副本，重新复制到：
+分别报告本机健康、公开仓库状态、私人页面内容、Hermes 私有快照、手机读取和真实调度回执。Git SHA 一致只说明公开仓库一致；文件 SHA256 与页面正文核验才覆盖私有桥接。配置存在、调度状态成功和业务同步完成需要分别取证。
 
-```text
-/root/obsidian-vault/90-Archive/External/global-llm-wiki
-```
+## 来源与范围
+
+依据现有共享协议、下载脚本和公开导出器的目录筛选及无变更逻辑整理；新电脑流程为迁移检查清单，不声称已在新设备完成安装或自动验收。

@@ -24,13 +24,13 @@ Use the local CLI:
 ```powershell
 python ~/.codex/tools/llm_wiki_cli.py status
 python ~/.codex/tools/llm_wiki_cli.py queue https://example.com
-python ~/.codex/tools/llm_wiki_cli.py lint
+python -B tools/check-shared-memory.py
 ```
 
 ## Cross-project Rule
 
 - This wiki is global and should be reused across projects.
-- Project-local notes can reference it, but the canonical long-term memory lives here.
+- Project-local notes can reference this repository. The configured Obsidian Vault is the authoring authority; this repository contains only the reviewed portable public-safe copy. Do not treat the public snapshot as complete private memory.
 - When a repo needs durable knowledge, add raw sources or structured pages here first.
 
 ## Shared Agent Memory
@@ -40,3 +40,5 @@ python ~/.codex/tools/llm_wiki_cli.py lint
 - Retrieve only task-relevant pages from `obsidian-vault/Home.md`.
 - Follow `agents/MEMORY_PROTOCOL.md` for writes and conflict handling.
 - Keep credentials, private endpoints, and machine-specific private facts local.
+
+Use the repository publication checker for the Home-rooted snapshot and aliased Wiki links. The legacy generic CLI lint is not the acceptance gate for this export layout.

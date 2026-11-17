@@ -151,3 +151,9 @@
 - 2026-10-11 07:05:16: Hermes guarded sync exported public-safe Obsidian memory (59 files, 2 skipped, 20 link-sanitized files, 33 EOF-normalized files).
 
 - 2026-10-14 01:50:16: Hermes guarded sync exported public-safe Obsidian memory (59 files, 2 skipped, 19 link-sanitized files, 33 EOF-normalized files).
+
+## 2026-11-15 — Portable memory deployment and publication boundaries
+
+- Prepared a reviewed public-safe update describing private versus public memory, new-computer onboarding, single-writer scheduling and separate acceptance evidence.
+- Replaced stale current-commit/count claims with live verification guidance and removed the server-specific assumption from shared Agent startup routing.
+- Clarified that catalog eligibility and successful no-op sync do not authorize future publication. No private profiles, Page identifiers, server connection details or operational records are included.
